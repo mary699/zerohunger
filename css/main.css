@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+nav {
+    display: flex;
+    background-color: rgb(197, 211, 219);
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 15vh;
+}
+.logoBox {
+    flex: 1.5;
+}
+.logo {
+    width: 50px;
+    height: 35px;
+    float: right;
+    margin-right: 15%;
+    font-weight: bolder;
+}
+.menuBox {
+    /* display: none; */
+    flex: 4.5;
+    padding-left: 10%;
+}
+.menuBox ul {
+    display: flex;
+    list-style: none;
+}
+.menuBox ul li {
+    width: 100px;
+    text-align: center;
+    margin: 6px;
+    padding: 10px;  
+}
+.menuBox ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.active, .menuBox ul li:hover {
+ 
+    border-radius: 3px;
+}
+
+.menuBox ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    top: 50px;
+    margin-left: 25px;
+}
+.menuBox ul li:hover .submenu ul {
+    display: block;
+}
+
+.menuBox ul li:hover .submenu ul li:hover .submenu2 {
+    display: block;
+    position: absolute;
+    margin-left: 80px;
+}
+.menuButton {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+#menuBtn {
+    display: none;
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 850px) {
+    .logo {
+        float: left;
+        margin-left: 10%;
+    }
+    .menuBox {
+        display: none;
+        flex: 4.5;
+        padding-left: 10%;
+    }
+    .menuBox ul {
+        display: block;
+        list-style: none;
+        padding-top: 10px;
+    }
+    .menuBox ul li:hover .submenu {
+        margin-left: 75px;
+        top: 100px;
+   
+    }
+    .hide {
+        display: block;
+    }
+    #menuBtn {
+        display: block;
+        width: 80px;
+        height: 35px;
+        background-color: red;
+        border: none;
+        border-radius: 3px;
+    }
+}
