@@ -6,10 +6,11 @@
 }
 nav {
     display: flex;
-    background-color: rgb(197, 211, 219);
+    background-color: white;
     font-family: sans-serif;
     font-size: 12px;
     height: 15vh;
+   
 }
 .logoBox {
     flex: 1.5;
@@ -51,6 +52,11 @@ nav {
     top: 50px;
     margin-left: 25px;
 }
+.menuBox ul li a{
+    color: rgb(52, 151, 243);
+    font-weight: bold;
+    
+}
 .menuBox ul li:hover .submenu ul {
     display: block;
 }
@@ -69,10 +75,157 @@ nav {
     display: none;
     width: 80px;
     height: 35px;
-    background-color: red;
+    background-color: orange;
     border: none;
     border-radius: 3px;
 }
+
+/* section top styling */
+
+.tops{
+/* border: 2px solid red; */
+height: 60px;
+background-color: rgb(252, 179, 45);
+}
+.tops h1 a{
+text-decoration: none;
+color: white;
+
+}
+.tops h1 a:hover{
+    color: red;
+}
+
+.tops h1{
+    text-align: center;
+    padding: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 8px;
+}
+
+.tops-one{
+/* border: 5px solid blue; */
+height: 500px;
+background-color: rgb(245, 245, 245);
+display: flex;
+width: 100%;
+}
+.tops-boxone{
+   /* border: 3px solid red; */
+   width: 40%;
+ float: left;
+ margin: 5%  70px ;
+}
+
+.tops-boxtwo{
+    /* border: 3px solid blue; */
+   float: right;
+   width: 40%;
+   margin-top: 40px;
+ }
+ .tops-boxtwo-text{
+    /* border: 2px solid red; */
+    padding: 20px;
+ }
+ .text{
+     color: black;
+     line-height: 1.5em;
+     padding: 7px;
+     font-weight: lighter;
+     font-size: 19px;
+ }
+ .tops-boxtwo-text span{
+color: blue;
+text-decoration-color: rgb( 0, 0, 0);
+font-weight: bolder;
+font-size: 30px;
+ }
+ 
+
+
+ /* section boxes */
+.boxes{
+   /* border: 2px solid red;  */
+   height: 0vh;
+   display: block;
+   
+}
+.boxes-one{
+    /* border: 2px solid blue; */
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: orange;
+}
+.boxes-one a{
+    text-decoration: none;
+    color: blue;
+    word-spacing: 10px;
+
+}
+.boxes-one h1{
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    width:100%
+}
+.boxes-two{
+    /* border: 3px solid green; */
+    height: 80vh;
+    display: flex;
+    background-color: red;
+}
+
+
+.boxes-two-left{
+/* border: 1px solid black; */
+width: 50%;
+background-color: white;
+
+}
+.listing{
+    /* border: 2px solid red; */
+    margin: 0px 30px;
+    display: block;
+    
+}
+ .listing-h1{
+color: black;
+}
+ .listing p {
+    background-color: white;
+    color: blue;
+}
+
+.boxes-two-right{
+/* border: 1px solid black; */
+width: 50%;
+background-color: white;
+
+}
+.boxes-two-right img{
+margin-top: 30px;
+}
+.boxes-two-right h1{
+    margin-top: 10px;
+}
+.boxes-two-left img{
+    margin-top: 30px;
+    }
+    .boxes-two-left h1{
+        margin-top: 10px;
+    }
+/* contact */
+
+
+
+/* footer */
+
+
+
+
 
 
 @media (max-width: 850px) {
@@ -88,11 +241,23 @@ nav {
     .menuBox ul {
         display: block;
         list-style: none;
-        padding-top: 10px;
+        padding-top: 70px;
+
     }
+    .menuBox ul li {
+        background-color: rgba(255, 255, 255, 0.912);
+        width: 100%;
+        margin: 2px;
+        padding: 10px;
+        font-size: 14px;
+       
+    
+    }
+   
     .menuBox ul li:hover .submenu {
         margin-left: 75px;
         top: 100px;
+        
    
     }
     .hide {
@@ -102,8 +267,135 @@ nav {
         display: block;
         width: 80px;
         height: 35px;
-        background-color: red;
+        background-color: orange;
         border: none;
         border-radius: 3px;
+        outline: none;
     }
+   
+    /* tops */
+    
+.tops{
+  display: block;
+  height: 50px;
+    }
+    .tops h1{
+        font-size: 16px;
+        margin: 5px 0px;
+    }
+    .tops h1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        
+        }
+        .tops h1 a:hover{
+            color: red;
+        }
+    
+    .tops-one{
+    display: block;
+    width: 100%;
+    margin: 8px 0px 0px 0px ; 
+    padding: 0px;
+    }
+    .tops-boxone{
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+    }
+    
+    .tops-boxtwo{
+        display: block;
+        width: 100%;
+        margin: 5px 0px 0px 0px ; 
+        padding: 0px;
+     }
+     .tops-boxtwo-text{
+     padding-top: 10px;
+     }
+     .text{
+        font-size: 16px; 
+     }
+     .tops-boxtwo-text span{
+        font-size: 25px;
+        font-weight: bold;
+     }
+    
+    /* boxes */
+    
+    .boxes{
+        /* border: 2px solid red;  */
+        height: 0vh;
+        display: block;
+        width: 100%;
+        
+     }
+     .boxes-one{
+         /* border: 2px solid blue; */
+         
+        
+     }
+     .boxes-one a{
+         text-decoration: none;
+         color: blue;
+         word-spacing: 3px;
+     
+     }
+     .boxes-one h1{
+         font-size: 16px;
+         padding: 5px;
+         text-align: center;
+
+     }
+     .boxes-two{
+         /* border: 3px solid green; */
+         height: 80vh;
+         display: block;
+         width: 100%;
+         background-color: rgb(37, 35, 35);
+     }
+     
+     
+     .boxes-two-left{
+     /* border: 1px solid black; */
+     width: 100%;
+     background-color: white;
+     
+     }
+     
+     .listing{
+         /* border: 2px solid red; */
+         margin: 0px 30px;
+         display: block;
+         
+     }
+      .listing-h1{
+     color: black;
+     
+     }
+      .listing p {
+         background-color: white;
+         color: blue;
+     }
+     
+     .boxes-two-right{
+     
+     width: 100%;
+     background-color: white;
+     display:block;
+     }
+     .boxes-two-left h1{
+margin-top: 0px;
+padding-top: 0px;
+
+     }
+        
+     
+     
+     
+
+    /* footer */
+
+    
 }
