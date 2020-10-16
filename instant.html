@@ -55,20 +55,27 @@
             border-left: 0px;
             border-right: 0px;
             border-top: 0px;
-            background-color: rgb(221, 219, 219);
+           
+        }
+        .group input{
+            background-color: none;
         }
         button{
             width: 70%;
             margin-top: 20px;
              background-color:  #0066cc;;
 
-            padding: 10px;
+            padding: 5px;
             outline: none;
             border: none;
             border-radius: 5px;
-            font-size: 20px;
+            font-size: 16px;
             font-family: cursive;
             color: white;
+        }
+        button:hover{
+            background-color: orange;
+            color: blue;
         }
         
         @media (max-width: 850px) {
@@ -80,27 +87,31 @@
                 height: 100vh;
             }
             h2{
-                font-size: 24px;
+                font-size: 16px;
                 margin: 0px;
                 padding: 0px;
                 text-align: left;
             }
             p{
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 1.5rem;
                 padding-top: 5px;
             }
             label{
-            font-size: 16px;            
+            font-size: 16px; 
+                     
              }
+           
             input{
-                width: 100%;
-                margin-top: 0px;
-                padding: 10px;
-                border-radius: 5px;
-                outline: none;
-                border: none;
-            }
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+           
+        }
             button{
                 width: 100%;
             }
@@ -112,6 +123,8 @@
     <div class="container">
         
         <div class="myform">
+            <img src="images/logo.png" width="80px" height="80px" alt="">
+
             <h2>
                 Do you wish to share or provide food instantly?
     
@@ -120,15 +133,22 @@
             <form action="" method="post">
                     <label for="name">Name</label>
                     <br>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name" required>
                     <br>
                     <label for="location"> Giver's Location</label>
                    <br>
-                    <input type="text" name="location" id="location">
+                    <input type="text" name="location" id="location" required>
                     <br>
                     <label for="Phone Number">Phone Number</label>
                     <br>
-                    <input type="number" name="pno" id="pno">
+                    <input type="number" name="pno" id="pno" required>
+                    <br>
+
+                    <div class="group">
+                        <label for="upload">Upload item for sharing</label>
+                    <input type="file" name="file" id="file" required>
+                    </div>
+                    
                     <div class="btn">
                        <a href="#"> <button type="submit">Share </button></a>
                     </div>
