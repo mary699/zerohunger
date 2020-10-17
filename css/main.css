@@ -174,10 +174,10 @@ font-size: 30px;
 /* notes */
 
 #notes{
-border: 2px solid red;
+/* border: 2px solid red; */
 }
 .note-all{
-border: 2px solid blue;
+/* border: 2px solid blue; */
 height: 90vh;
 margin: 0px 8%;
 }
@@ -199,11 +199,11 @@ margin: 0px 8%;
 
 /* footer */
 footer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 footer h1{
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 30vh;
   font-size: 39px;
   padding-top: 30px;
@@ -214,18 +214,34 @@ footer h1{
 .footer-img{
 background-repeat: no-repeat;
 background-position: center;
+position: relative;
 
 }
     
-.footer-text{
-
-}
 .footer-text-form{
+border: 2px solid red;
+position: absolute;
+bottom: -1560px;
+height: 40vh;
+left: 35px;
+width: 35%;
+
 
 }
-.footer-text-socials{
-
+.footer-text-icon {
+   border: 2px solid blue;
+position: absolute;
+bottom: -1560px;
+right: 70px;
+height: 40vh;
+width: 35%;
 }
+
+.footer-text-icon p{
+    color: white;
+    padding-top: 20px;
+}
+
 
 
 
@@ -376,7 +392,7 @@ background-position: center;
 
 
 #notes{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     }
     .note-all{
    
@@ -414,15 +430,46 @@ background-position: center;
 
 
     /* footer */
-.footer-img
+.footer-img{
+    position: absolute;
+    top: 2100px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
-.footer-text{
-
-}
+    
 .footer-text-form{
-
-}
-.footer-text-socials{
-
-}
+    border: 2px solid red;
+    position: absolute;
+    bottom: -1800px;
+    height: 20vh;
+    left: 25px;
+    width: 35%;
+    
+    
+    }
+    .footer-text-icon {
+       border: 2px solid blue;
+    position: absolute;
+    bottom: -1800px;
+    right: 70px;
+    height: 30vh;
+    width: 35%;
+    }
+    
+    .footer-text-icon p{
+        color: white;
+       font-size: 10px;
+    }
+    .footer-text-icon img{
+        width: 15px;
+    }
+    .footer-text-icon svg{
+        width: 20px ;
+    }
+    .footer-text-icon .ff{
+        display: none;
+    }
