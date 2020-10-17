@@ -52,8 +52,8 @@ nav {
     margin-left: 25px;
 }
 .menuBox ul li a{
-    color: rgb(52, 151, 243);
-    font-weight: bold;
+    color: #145da0;
+      font-weight: bold;
     
 }
 .menuBox ul li:hover .submenu ul {
@@ -83,7 +83,7 @@ nav {
 
 .tops{
 height: 40px;
-background-color: red;
+background-color: rgba(255, 0, 0, 0.878);
 }
 
 .tops h1 a{
@@ -92,14 +92,14 @@ color: white;
 
 }
 .tops h1 a:hover{
-    color: red;
+    color: #145da0;
 }
 
 .tops h1{
     text-align: center;
     padding: 5px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 8px;
+    letter-spacing: 3px;
 }
 
 .tops-one{
@@ -130,10 +130,10 @@ width: 100%;
      font-size: 16px;
  }
  .tops-boxtwo-text span{
-color: blue;
-text-decoration-color: rgb( 0, 0, 0);
-font-weight: bolder;
-font-size: 22px;
+    color: #145da0;
+    text-decoration-color: rgb( 0, 0, 0);
+    font-weight: bolder;
+    font-size: 22px;
  }
 
  /* section middles */
@@ -156,8 +156,7 @@ font-size: 22px;
 }
 .group-one h1{
     padding: 10px;
-    color: blue;
-}
+    color: #145da0;}
 
 
 
@@ -312,21 +311,19 @@ font-size: 22px;
     .group-one h1{
         padding: 5px;
         font-size: 16px;
-        color: blue;
+        color: #145da0;
     }
     
     
 /* banner */
 .banner {
     position: absolute;
-    top: 1100px;
+    top: 1050px;
     right: 0px;
     left: 0px;
     bottom: 0px;
 }
-.banner img{
-    
-}
+
 
 
 
