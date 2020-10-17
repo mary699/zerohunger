@@ -312,7 +312,8 @@ margin-top: 30px;
         padding: 0px;
      }
      .tops-boxtwo-text{
-     padding-top: 10px;
+     padding-top: 0px;
+     margin: 0px;
      }
      .text{
         font-size: 16px; 
@@ -332,7 +333,9 @@ margin-top: 30px;
         
      }
      .boxes-one{
+         margin-top: 50px;
          /* border: 2px solid blue; */
+
          
         
      }

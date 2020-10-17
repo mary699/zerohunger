@@ -325,7 +325,7 @@
         }
 
         .group-contain {
-            border: 2px solid blue;
+            /* border: 2px solid blue; */
             margin-top: 45px;
             display: block;
         }
@@ -372,7 +372,7 @@
         }
 
         .contain-team-boxone {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             text-align: center;
             position: relative;
             top: 50px;
@@ -388,7 +388,7 @@
             width: 100%;
             background-color: blue;
             position: absolute;
-            bottom: -1950px;
+            bottom: -2250px;
         }
 
         footer p {
