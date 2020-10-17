@@ -83,7 +83,7 @@ nav {
 
 .tops{
 height: 40px;
-background-color: rgba(255, 0, 0, 0.878);
+background-color: rgba(255, 0, 0, 0.775);
 }
 
 .tops h1 a{
@@ -207,7 +207,7 @@ footer h1{
     height: 30vh;
   font-size: 39px;
   padding-top: 30px;
-    color: rgba(0, 0, 0, 0.419);
+    color: red;
 }
 
 
@@ -431,9 +431,17 @@ text-align: right;
 
 
     /* footer */
+    footer h1{
+position: absolute;
+top: 2050px;
+left: 120px;
+height: 15vh;
+width: 50%;
+border: 2px solid red;
+    }
 .footer-img{
     position: absolute;
-    top: 2100px;
+    top: 2200px;
     right: 0px;
     left: 0px;
     bottom: 0px;
@@ -445,8 +453,8 @@ text-align: right;
 .footer-text-form{
     /* border: 2px solid red; */
     position: absolute;
-    bottom: -1800px;
-    height: 20vh;
+    bottom: -1560px;
+    height: 10vh;
     left: 16px;
     width: 35%;
     
@@ -464,23 +472,25 @@ width: 50%;
     button{
         width: 35%;
         font-size: 12px;
-        padding: 5px;
+       
     }
-::placeholder{
+    ::placeholder{
     font-size: 8px;
 }
     .footer-text-icon {
        /* border: 2px solid blue; */
     position: absolute;
-    bottom: -1800px;
+    bottom: -1560px;
     right: 30px;
-    height: 20vh;
+    height: 10vh;
     width: 35%;
     }
     
     .footer-text-icon p{
         color: white;
        font-size: 10px;
+       padding: 0px;
+       line-height: 1.5em;
     }
     .footer-text-icon img{
        display: none;
