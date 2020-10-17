@@ -165,14 +165,24 @@ width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.banner:hover{
+    background: url("../images/newlogo.png");
+}
+
 
 
 /* contact-all */
 
-/* .contact-all{
+.contact-all{
     border: 2px solid red;
     height: 70vh;
-} */
+}
+.contact-all-one{
+
+}
+.contact-all-two{
+
+}
 
 
 
