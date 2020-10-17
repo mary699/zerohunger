@@ -143,13 +143,27 @@ font-size: 22px;
  }
 
  /* section boxes */
-.midbox{
-border: 2px solid red;
+#middles{
+    border: 2px solid blue;
+    height: 55vh;
+    display: block;
+    
 
 }
+.middles-group{
+    border: 9px solid red;
+    height: 55vh;
+    margin: 0px 30px;
+    display: block;
+    text-align: center;
+}
 
-.midbox-item{
-border: 2px solid;
+.group-one{
+    display: block;
+    line-height: 1.5rem;
+}
+.group-one h1{
+    padding: 10px;
 }
 
 
@@ -226,6 +240,7 @@ border: 2px solid;
     .tops h1{
         font-size: 16px;
         margin: 5px 0px;
+        word-spacing: normal;
     }
     .tops h1 a{
         text-decoration: none;
@@ -253,12 +268,14 @@ border: 2px solid;
     .tops-boxtwo{
         display: block;
         width: 100%;
-        margin: 5px 0px 0px 0px ; 
-        padding: 0px;
+        margin: 5px 0px 90px 0px ; 
+        border: 8px solid blue;
      }
      .tops-boxtwo-text{
      padding-top: 0px;
      margin-top: 30px;
+     
+     text-align: left;
      }
      .text{
         font-size: 12px; 
@@ -268,10 +285,35 @@ border: 2px solid;
         font-weight: bold;
      }
     
-    /* boxes */
+    /* middleboxes */
     
-     
-     
+     #middles{
+         /* border: 2px solid red; */
+         position: absolute;
+         padding: 0px;
+         bottom: 0px;
+        top: 670px;
+        right: 0px;
+        left: 0px;
+   height: 90vh;
+     }
+     .middles-group{
+        margin: 0px;
+        display: block;
+        height: 90vh;
+     }
+
+     .group-one{
+        display: block;
+        line-height: 1.5rem;
+        font-size: 13px;
+    }
+    .group-one h1{
+        padding: 5px;
+        font-size: 16px;
+    }
+    
+    
 
     /* footer */
 
