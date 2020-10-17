@@ -235,6 +235,7 @@ bottom: -1560px;
 right: 70px;
 height: 40vh;
 width: 35%;
+text-align: right;
 }
 
 .footer-text-icon p{
@@ -446,11 +447,28 @@ width: 35%;
     position: absolute;
     bottom: -1800px;
     height: 20vh;
-    left: 25px;
+    left: 16px;
     width: 35%;
     
     
     }
+
+    .footer-text-form form label{
+        color: white;
+        font-size: 16px;
+    }
+    .footer-text-form form input{
+width: 50%;
+
+    }
+    button{
+        width: 35%;
+        font-size: 12px;
+        padding: 5px;
+    }
+::placeholder{
+    font-size: 8px;
+}
     .footer-text-icon {
        /* border: 2px solid blue; */
     position: absolute;
