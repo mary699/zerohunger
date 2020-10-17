@@ -175,7 +175,7 @@ border: 2px solid red;
 }
 .note-all{
 border: 2px solid blue;
-height: 85vh;
+height: 90vh;
 margin: 0px 8%;
 }
 .note-all p{
@@ -189,6 +189,7 @@ margin: 0px 8%;
   width: 50%;
   margin-left: 200px;
   text-align: center;
+  border-radius: 50%;
 }
 
 
