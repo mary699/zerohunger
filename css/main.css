@@ -214,18 +214,18 @@ footer h1{
     border: 2px solid red;
     position: absolute;
     bottom: -1560px;
-    height: 40vh;
+    height: 30vh;
     left: 35px;
     width: 35%;
 
 
 }
 .footer-text-icon {
-    border: 2px solid #145da0;
+    border: 2px solid blue;
     position: absolute;
     bottom: -1560px;
     right: 70px;
-    height: 40vh;
+    height: 30vh;
     width: 35%;
     text-align: right;
 }
@@ -234,8 +234,20 @@ footer h1{
     color: white;
     padding-top: 20px;
 }
-
-
+label{
+    color: white;
+    
+}
+h4{
+    color: white;
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+#img{
+    text-align: center;
+   padding-top: 20px;
+}
 
 
 /*  -------------------------MEDIA QUERY SECTION-------------- */
@@ -373,7 +385,7 @@ footer h1{
 /* banner */
 .banner {
     position: absolute;
-    top: 1050px;
+    top: 1090px;
     right: 0px;
     left: 0px;
     bottom: 0px;
@@ -425,27 +437,29 @@ footer h1{
     /* footer */
     footer h1{
     position: absolute;
-    top: 2050px;
-    left: 120px;
+    top: 2150px;
+    left: 80px;
     height: 15vh;
     width: 50%;
+    padding-top: 30px;
+    text-align: center;
     }
 .footer-img{
     position: absolute;
-    top: 2200px;
+    top: 2270px;
     right: 0px;
     left: 0px;
     bottom: 0px;
     background-repeat: no-repeat;
     background-position: center;
-    
+  
 }
     
 .footer-text-form{
     position: absolute;
     /* bottom: -1560px; */
-    height: 10vh;
-    top: 2210px;
+    height: 35vh;
+    top: 2280px;
     left: 16px;
     width: 35%;
     
@@ -471,7 +485,7 @@ footer h1{
     .footer-text-icon {
     position: absolute;
     /* bottom: -1560px; */
-    top: 2210px;
+    top: 2280px;
     right: 30px;
     height: 10vh;
     width: 35%;
@@ -492,5 +506,22 @@ footer h1{
     }
     .footer-text-icon .ff{
         display: none;
+    }
+
+    label{
+        color: white;
+        
+    }
+    h4{
+        color: white;
+        margin-top: 5px;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 10px;
+    }
+    #img{
+        text-align: center;
+   
+       
     }
 }
