@@ -269,7 +269,8 @@
         }
 
         #menuBtn {
-            display: block;
+            /* display: block; */
+            display: none;
             width: 80px;
             height: 35px;
             background-color: #145da0;;
