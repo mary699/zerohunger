@@ -64,7 +64,8 @@
     }
 
     .menuBox ul li a {
-        color: blue;
+        color: rgb(52, 151, 243);
+        font-weight: bold;
     }
 
     .menuBox ul li:hover .submenu ul {

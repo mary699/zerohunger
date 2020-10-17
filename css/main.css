@@ -164,6 +164,13 @@ font-size: 30px;
     word-spacing: 10px;
 
 }
+.boxes-one h1{
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    width:100%
+}
 .boxes-two{
     /* border: 3px solid green; */
     height: 80vh;
