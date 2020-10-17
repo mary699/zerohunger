@@ -74,7 +74,7 @@ nav {
     display: none;
     width: 80px;
     height: 35px;
-    background-color: orange;
+    background-color: red;
     border: none;
     border-radius: 3px;
 }
@@ -83,7 +83,7 @@ nav {
 
 .tops{
 height: 40px;
-background-color: rgb(252, 179, 45);
+background-color: red;
 }
 
 .tops h1 a{
@@ -161,9 +161,19 @@ font-size: 22px;
 
 
 
+/* banner styling */
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* contact-all */
 
-
+/* .contact-all{
+    border: 2px solid red;
+    height: 70vh;
+} */
 
 
 
@@ -218,7 +228,7 @@ font-size: 22px;
         display: block;
         width: 80px;
         height: 35px;
-        background-color: orange;
+        background-color: red;
         border: none;
         border-radius: 3px;
         outline: none;
@@ -306,6 +316,24 @@ font-size: 22px;
     }
     
     
+/* banner */
+.banner {
+    position: absolute;
+    top: 1100px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.banner img{
+    
+}
+
+
+
+
+
+
+
 
     /* footer */
 
