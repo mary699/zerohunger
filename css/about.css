@@ -28,7 +28,6 @@
     }
 
     .menuBox {
-        /* display: none; */
         flex: 4.5;
         padding-left: 10%;
     }
@@ -105,15 +104,16 @@
     .text-one {
         padding: 10px;
         flex: 3;
+        padding-left: 100px;
     }
 
+.text-one p{
+    line-height: 1.5rem;
+}
     .text-two {
         padding: 10px;
         flex: 3;
     }
-
-  
-
 
 
 /* section-two starts  */
@@ -206,7 +206,7 @@
 
         height: 50px;
         width: 100%;
-        background-color: rgb(97, 154, 238);
+        background-color: rgb(38, 106, 208);
         position: absolute;
         bottom: -900px;
 
@@ -295,6 +295,7 @@
         .text-one {
             padding: 10px;
             display: block;
+          
 
         }
 
@@ -305,6 +306,7 @@
         .text-one p {
             font-size: 14px;
             line-height: 1.5rem;
+
 
         }
 
@@ -330,10 +332,10 @@
             border-radius: 50%;
            background-color: transparent;
             margin: auto;
-            border: 3px solid red;
+            /* border: 3px solid red; */
 
         }
-     
+       
 
         .contain-team img {
             background-position: center;
@@ -365,9 +367,12 @@
      
             text-align: center;
             position: relative;
-            top: 50px;
+            top: 60px;
             font-size: 12px;
             line-height: 1.5rem;
+        }
+        .contain-team-boxone .mission{
+            margin-top: 70px;
         }
        
         
@@ -380,7 +385,7 @@
             width: 100%;
             background-color: blue;
             position: absolute;
-            bottom: -1350px;
+            bottom: -1450px;
             
         }
 
