@@ -28,7 +28,6 @@
     }
 
     .menuBox {
-        /* display: none; */
         flex: 4.5;
         padding-left: 10%;
     }
@@ -105,15 +104,16 @@
     .text-one {
         padding: 10px;
         flex: 3;
+        padding-left: 100px;
     }
 
+.text-one p{
+    line-height: 1.5rem;
+}
     .text-two {
         padding: 10px;
         flex: 3;
     }
-
-  
-
 
 
 /* section-two starts  */
@@ -134,7 +134,7 @@
     .contain-header h1 {
         text-align: center;
         color: black;
-        padding-top: 10px;
+        padding-top: 10px; 
     }
 
     .contain-header p {
@@ -158,7 +158,7 @@
 
     .contain-team {
         width: 30%;
-        margin: 0px 12%;
+        margin-left: 20px;
         border-radius: 50%;
         background-color: orange;
 
@@ -181,13 +181,6 @@
 
     }
 
-    .contain-team:hover {
-        background-color: white;
-    }
-
-    .contain-core-value:hover {
-        background-color: white;
-    }
 
     .contain-team-text {
         text-align: center;
@@ -197,12 +190,13 @@
     .contain-team-boxone {
         text-align: center;
         position: relative;
-        top: 65px;
+        top: 95px;
 
     }
 
     .contain-team-boxone p {
         font-size: 12px;
+        line-height: 1.5em;
     }
 
     /* section-two ends starts  */
@@ -212,9 +206,9 @@
 
         height: 50px;
         width: 100%;
-        background-color: rgb(97, 154, 238);
+        background-color: rgb(38, 106, 208);
         position: absolute;
-        bottom: -1000px;
+        bottom: -900px;
 
     }
 
@@ -227,7 +221,7 @@
 
     /* footer */
 
-    /* section oneend  styling */
+    
 
 /* --------------MEDIA QUERY--- */
     @media (max-width: 850px) {
@@ -261,6 +255,7 @@
 
         .menuBox ul li a {
             color: white;
+            
         }
 
         .menuBox ul li:hover .submenu {
@@ -300,6 +295,7 @@
         .text-one {
             padding: 10px;
             display: block;
+          
 
         }
 
@@ -310,6 +306,7 @@
         .text-one p {
             font-size: 14px;
             line-height: 1.5rem;
+
 
         }
 
@@ -325,26 +322,27 @@
         }
 
         .group-contain {
-            border: 2px solid blue;
             margin-top: 45px;
             display: block;
         }
 
         .contain-team {
-            width: 60%;
-            height: 60%;
+            width: 50%;
+            height: 50%;
             border-radius: 50%;
-            background-color: orange;
+           background-color: transparent;
             margin: auto;
+            /* border: 3px solid red; */
 
         }
+       
 
         .contain-team img {
             background-position: center;
             background-size: contain;
             position: relative;
             z-index: 1;
-            left: 23px;
+            left: 30px;
             top: -1px;
             border-radius: 100%;
             background: url("../images/team.jpg");
@@ -358,27 +356,26 @@
             background-color: blue;
         }
 
-        .contain-team:hover {
-            background-color: white;
-        }
-
-        .contain-core-value:hover {
-            background-color: white;
-        }
+      
 
         .contain-team-text {
             font-size: 12px;
-            padding-top: 20px;
+            padding-top: 15px;
         }
 
         .contain-team-boxone {
-            border: 2px solid red;
+     
             text-align: center;
             position: relative;
-            top: 50px;
+            top: 60px;
             font-size: 12px;
+            line-height: 1.5rem;
         }
-
+        .contain-team-boxone .mission{
+            margin-top: 70px;
+        }
+       
+        
         /* section section-mission  styling responsive*/
 
         /* footer */
@@ -388,7 +385,8 @@
             width: 100%;
             background-color: blue;
             position: absolute;
-            bottom: -1150px;
+            bottom: -1450px;
+            
         }
 
         footer p {
