@@ -83,7 +83,7 @@ nav {
 
 .tops{
 height: 40px;
-background-color: rgba(255, 0, 0, 0.878);
+background-color: rgba(255, 0, 0, 0.775);
 }
 
 .tops h1 a{
@@ -161,8 +161,6 @@ font-size: 30px;
 }
     
 
-
-
 /* banner styling */
 .banner{
     background-repeat: no-repeat;
@@ -173,11 +171,8 @@ font-size: 30px;
 
 /* notes */
 
-#notes{
-/* border: 2px solid red; */
-}
+
 .note-all{
-/* border: 2px solid blue; */
 height: 90vh;
 margin: 0px 8%;
 }
@@ -189,53 +184,50 @@ margin: 0px 8%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  width: 50%;
-  margin-left: 200px;
-  text-align: center;
-  border-radius: 50%;
+    width: 50%;
+    margin-left: 200px;
+    text-align: center;
+    border-radius: 50%;
 }
 
 
 
 /* footer */
-footer{
-    /* border: 2px solid red; */
-}
+
 footer h1{
     text-align: center;
-    /* border: 2px solid red; */
     height: 30vh;
-  font-size: 39px;
-  padding-top: 30px;
-    color: rgba(0, 0, 0, 0.419);
+    font-size: 39px;
+    padding-top: 30px;
+    color: red;
 }
 
 
 .footer-img{
-background-repeat: no-repeat;
-background-position: center;
-position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 
 }
     
 .footer-text-form{
-border: 2px solid red;
-position: absolute;
-bottom: -1560px;
-height: 40vh;
-left: 35px;
-width: 35%;
+    border: 2px solid red;
+    position: absolute;
+    bottom: -1560px;
+    height: 40vh;
+    left: 35px;
+    width: 35%;
 
 
 }
 .footer-text-icon {
-   border: 2px solid blue;
-position: absolute;
-bottom: -1560px;
-right: 70px;
-height: 40vh;
-width: 35%;
-text-align: right;
+    border: 2px solid #145da0;
+    position: absolute;
+    bottom: -1560px;
+    right: 70px;
+    height: 40vh;
+    width: 35%;
+    text-align: right;
 }
 
 .footer-text-icon p{
@@ -431,9 +423,16 @@ text-align: right;
 
 
     /* footer */
+    footer h1{
+    position: absolute;
+    top: 2050px;
+    left: 120px;
+    height: 15vh;
+    width: 50%;
+    }
 .footer-img{
     position: absolute;
-    top: 2100px;
+    top: 2200px;
     right: 0px;
     left: 0px;
     bottom: 0px;
@@ -443,10 +442,10 @@ text-align: right;
 }
     
 .footer-text-form{
-    /* border: 2px solid red; */
     position: absolute;
-    bottom: -1800px;
-    height: 20vh;
+    /* bottom: -1560px; */
+    height: 10vh;
+    top: 2210px;
     left: 16px;
     width: 35%;
     
@@ -458,29 +457,31 @@ text-align: right;
         font-size: 16px;
     }
     .footer-text-form form input{
-width: 50%;
+    width: 50%;
 
     }
     button{
         width: 35%;
         font-size: 12px;
-        padding: 5px;
+       
     }
-::placeholder{
+    ::placeholder{
     font-size: 8px;
 }
     .footer-text-icon {
-       /* border: 2px solid blue; */
     position: absolute;
-    bottom: -1800px;
+    /* bottom: -1560px; */
+    top: 2210px;
     right: 30px;
-    height: 20vh;
+    height: 10vh;
     width: 35%;
     }
     
     .footer-text-icon p{
         color: white;
        font-size: 10px;
+       padding: 0px;
+       line-height: 1.5em;
     }
     .footer-text-icon img{
        display: none;
