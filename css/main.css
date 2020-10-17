@@ -156,7 +156,10 @@ width: 100%;
 }
 .group-one h1{
     padding: 10px;
-    color: #145da0;}
+    color: #145da0;
+font-size: 30px;
+}
+    
 
 
 
@@ -194,18 +197,39 @@ margin: 0px 8%;
 
 
 
-
-
-
-
-
-
-
-
 /* footer */
+footer{
+    border: 2px solid red;
+}
+footer h1{
+    text-align: center;
+    border: 2px solid red;
+    height: 30vh;
+  font-size: 39px;
+  padding-top: 30px;
+    color: rgba(0, 0, 0, 0.419);
+}
+
+
+.footer-img{
+background-repeat: no-repeat;
+background-position: center;
+
+}
+    
+.footer-text{
+
+}
+.footer-text-form{
+
+}
+.footer-text-socials{
+
+}
 
 
 
+/*  -------------------------MEDIA QUERY SECTION-------------- */
 @media (max-width: 850px) {
     .logo {
         float: left;
@@ -382,7 +406,7 @@ margin: 0px 8%;
     }
 
     .note-all .p-sec{
-        padding: 10px; 
+        padding: 20px; 
         font-size: 16px;
         line-height: 1.5em;
     }
@@ -390,6 +414,15 @@ margin: 0px 8%;
 
 
     /* footer */
-
+.footer-img
     
+}
+.footer-text{
+
+}
+.footer-text-form{
+
+}
+.footer-text-socials{
+
 }
