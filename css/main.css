@@ -165,24 +165,35 @@ width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner:hover{
-    background: url("../images/newlogo.png");
+
+
+
+/* notes */
+
+#notes{
+border: 2px solid red;
+}
+.note-all{
+border: 2px solid blue;
+height: 85vh;
+margin: 0px 8%;
+}
+.note-all p{
+    padding: 10px;
+}
+.note-all img{
+    padding-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 50%;
+  margin-left: 200px;
+  text-align: center;
 }
 
 
 
-/* contact-all */
 
-.contact-all{
-    border: 2px solid red;
-    height: 70vh;
-}
-.contact-all-one{
-
-}
-.contact-all-two{
-
-}
 
 
 
@@ -334,11 +345,46 @@ width: 100%;
     bottom: 0px;
 }
 
+/* notes */
 
 
 
 
+#notes{
+    border: 2px solid red;
+    }
+    .note-all{
+   
+    position: absolute;
+    top: 1250px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    
+    }
+    .note-all p{
+        padding: 10px;
+        font-size: 16px;
+        line-height: 1.5em;
+       
+    }
+    .note-all img{
+      position: relative;
+      width: 100%;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   top: 20px;
+   margin: 0px;
+   padding: 0px;
+      
+    }
 
+    .note-all .p-sec{
+        padding: 10px; 
+        font-size: 16px;
+        line-height: 1.5em;
+    }
 
 
 
