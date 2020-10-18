@@ -236,6 +236,8 @@ footer h1{
 }
 label{
     color: white;
+    font-size: 16px;
+    font-weight: lighter;
     
 }
 h4{
@@ -247,8 +249,11 @@ h4{
 #img{
     text-align: center;
    padding-top: 20px;
+   border: 2px solid blue;
 }
-
+form{
+    border: 6px solid red;
+}
 
 /*  -------------------------MEDIA QUERY SECTION-------------- */
 @media (max-width: 850px) {
@@ -409,7 +414,7 @@ h4{
     
     }
     .note-all p{
-        padding: 10px;
+        padding-top: 270px;
         font-size: 16px;
         line-height: 1.5em;
        
@@ -437,7 +442,7 @@ h4{
     /* footer */
     footer h1{
     position: absolute;
-    top: 2150px;
+    top: 2350px;
     left: 80px;
     height: 15vh;
     width: 50%;
@@ -446,7 +451,7 @@ h4{
     }
 .footer-img{
     position: absolute;
-    top: 2270px;
+    top: 2470px;
     right: 0px;
     left: 0px;
     bottom: 0px;
@@ -459,7 +464,7 @@ h4{
     position: absolute;
     /* bottom: -1560px; */
     height: 35vh;
-    top: 2280px;
+    top: 2475px;
     left: 16px;
     width: 35%;
     
@@ -475,17 +480,30 @@ h4{
 
     }
     button{
-        width: 35%;
+        width: 40%;
+        padding: 2px;
         font-size: 12px;
+        font-family: cursive;
+        color: white;
+        background-color: #145da0;
+        border: 1px solid red;
+        outline: none;
        
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid red;
     }
     ::placeholder{
     font-size: 8px;
+    color: black;
+    font-style: normal;
 }
     .footer-text-icon {
     position: absolute;
     /* bottom: -1560px; */
-    top: 2280px;
+    top: 2475px;
     right: 30px;
     height: 10vh;
     width: 35%;
@@ -508,8 +526,10 @@ h4{
         display: none;
     }
 
-    label{
+   form label{
         color: white;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
         
     }
     h4{
