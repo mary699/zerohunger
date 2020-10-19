@@ -196,7 +196,7 @@ margin: 0px 8%;
 .contact{
     border: 2px solid red;
     height: 80vh;
-    background-color: lightgray;
+    background-color:#145da0;
 }
 .contact-all{
 border: 2px solid blue;
@@ -211,7 +211,7 @@ display: block;
 }
 .contact-one{
 border: 2px solid red;
-height: 20vh;
+height: 30vh;
 margin-top: 15px;
 display: flex;
 }
@@ -231,7 +231,7 @@ border: 2px solid rgb(60, 230, 45);
 font-size: 12px;
 font-family: Arial, Helvetica, sans-serif;
 margin-top: 5px;
-color: #145da0;
+color: white;
 font-weight: bold;
 
 }
@@ -245,28 +245,40 @@ outline: none;
 }
 ::placeholder{
     font-size: 8px;
-    color: red;
+    color: black;
 }
 button{
     width: 90px;
     padding: 5px;
     border: none;
 outline: none;
-color: red;
+color: black;
 }
 .contact-one_three{
 flex: 2;
 border: 2px solid rgb(37, 175, 157);
 
 }
+
 .contact-two{
 border: 2px solid red;
 height: 20vh;
 margin-top: 15px;
+display: flex;
 }
+.contact-two_one{
+flex: 2;
+}
+.contact-two_two{
+    flex: 2;
+}
+.contact-two_three{
+    flex: 2;
+}
+
 .contact-three{
  border: 2px solid red;
- height: 20vh;
+ height: 10vh;
  margin-top: 15px;
  }
 
