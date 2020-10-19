@@ -193,67 +193,61 @@ margin: 0px 8%;
 
 
 /* footer */
-
-footer h1{
-    text-align: center;
-    height: 30vh;
-    font-size: 39px;
-    padding-top: 30px;
-    color: red;
-}
-
-
-.footer-img{
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-
-}
-    
-.footer-text-form{
+footer{
     border: 2px solid red;
-    position: absolute;
-    bottom: -1500px;
-    height: 30vh;
-    left: 33px;
-    width: 35%;
+    height: 80vh;
+    background-color: lightgray;
+}
+.footer-all{
+border: 2px solid blue;
+margin: 30px  30px 0px 30px;
+height: 70vh;
+}
+.footer-div{
+border: 2px solid rgb(20, 20, 22);
+height: 70vh;
+
+}
+.footer-one{
+border: 2px solid red;
+height: 20vh;
+margin-top: 15px;
+}
+
+.footer-two{
+border: 2px solid red;
+height: 20vh;
+margin-top: 15px;
+}
+.footer-three{
+ border: 2px solid red;
+ height: 20vh;
+ margin-top: 15px;
+ }
 
 
-}
-.footer-text-icon {
-    border: 2px solid blue;
-    position: absolute;
-    bottom: -1500px;
-    right: 70px;
-    height: 30vh;
-    width: 35%;
-    text-align: right;
-}
 
-.footer-text-icon p{
-    color: white;
-    padding-top: 20px;
-}
-label{
-    color: white;
-    font-size: 16px;
-    font-weight: lighter;
-    
-}
-h4{
-    color: white;
-    margin-top: 20px;
-    font-weight: lighter;
-    text-align: center;
-}
-#img{
-    text-align: center;
-   padding-top: 20px;
-   border: 2px solid blue;
-}
-form{
-    border: 6px solid red;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  -------------------------MEDIA QUERY SECTION-------------- */
 @media (max-width: 850px) {
@@ -444,122 +438,12 @@ form{
 
 
     /* footer */
-    footer h1{
-    position: absolute;
-    top: 2350px;
-    left: 80px;
-    height: 15vh;
-    width: 50%;
-    padding-top: 30px;
-    text-align: center;
-    }
-.footer-img{
-    /* position: absolute;
-    top: 2470px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    background-repeat: no-repeat;
-    background-position: center; */
-    
-  display: none;
-}
-    
-.footer-text-form{
-    position: absolute;
-    /* bottom: -1560px; */
-    height: 35vh;
-    top: 2475px;
-    left: 16px;
-    width: 35%;
-    
-    
-    }
-
-    .footer-text-form form label{
-        color: #145da0;
-        font-size: 16px;
-    }
-    .footer-text-form form input{
-    width: 50%;
-
-    }
-    button{
-        width: 40%;
-        padding: 2px;
-        font-size: 12px;
-        font-family: cursive;
-        color:#145da0;
-        background-color: #145da0;
-        border: 1px solid red;
-        outline: none;
-       
-    }
-    button:hover{
-        background-color: red;
-        color: black;
-        border: 1px solid red;
-    }
-    ::placeholder{
-    font-size: 8px;
-    color: black;
-    font-style: normal;
-}
-.animg{
-position: relative;
-left: 215px;
-top: -15px;
-display: flex;
-border: 2px solid red;
-
-}
-.animg img{
-    width: 65px;
-}
-    .footer-text-icon {
-    position: absolute;
-    /* bottom: -1560px; */
-    top: 2475px;
-    right: 30px;
-    width: 35%;
-    }
-    
-    .footer-text-icon p{
-        color: #145da0;
-       font-size: 10px;
-       padding: 0px;
-       line-height: 1.5em;
-       text-align: left;
-       font-weight: bold;
-    }
-    .footer-text-icon img{
-       display: none;
-    }
-    .footer-text-icon svg{
-        width: 20px ;
-        display: none;
-    }
-    .footer-text-icon .ff{
-        display: none;
-    }
-
-   form label{
-        color: #145da0;
-        font-size: 13px;
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
-    h4{
-        /* color: #145da0;
-        margin-top: 5px;
-        font-weight: lighter;
-        text-align: center;
-        font-size: 10px; */
-        display: none;
-    }
-    #img{
-        text-align: center;
    
-       
-    }
+
+
+
+
+
+
+
 }
