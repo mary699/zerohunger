@@ -213,9 +213,9 @@ footer h1{
 .footer-text-form{
     border: 2px solid red;
     position: absolute;
-    bottom: -1560px;
+    bottom: -1500px;
     height: 30vh;
-    left: 35px;
+    left: 33px;
     width: 35%;
 
 
@@ -223,7 +223,7 @@ footer h1{
 .footer-text-icon {
     border: 2px solid blue;
     position: absolute;
-    bottom: -1560px;
+    bottom: -1500px;
     right: 70px;
     height: 30vh;
     width: 35%;
@@ -454,14 +454,15 @@ form{
     text-align: center;
     }
 .footer-img{
-    position: absolute;
+    /* position: absolute;
     top: 2470px;
     right: 0px;
     left: 0px;
     bottom: 0px;
     background-repeat: no-repeat;
-    background-position: center;
-  
+    background-position: center; */
+    
+  display: none;
 }
     
 .footer-text-form{
@@ -476,7 +477,7 @@ form{
     }
 
     .footer-text-form form label{
-        color: white;
+        color: #145da0;
         font-size: 16px;
     }
     .footer-text-form form input{
@@ -488,14 +489,14 @@ form{
         padding: 2px;
         font-size: 12px;
         font-family: cursive;
-        color: white;
+        color:#145da0;
         background-color: #145da0;
         border: 1px solid red;
         outline: none;
        
     }
     button:hover{
-        background-color: white;
+        background-color: red;
         color: black;
         border: 1px solid red;
     }
@@ -504,20 +505,32 @@ form{
     color: black;
     font-style: normal;
 }
+.animg{
+position: relative;
+left: 215px;
+top: -15px;
+display: flex;
+border: 2px solid red;
+
+}
+.animg img{
+    width: 65px;
+}
     .footer-text-icon {
     position: absolute;
     /* bottom: -1560px; */
     top: 2475px;
     right: 30px;
-    height: 10vh;
     width: 35%;
     }
     
     .footer-text-icon p{
-        color: white;
+        color: #145da0;
        font-size: 10px;
        padding: 0px;
        line-height: 1.5em;
+       text-align: left;
+       font-weight: bold;
     }
     .footer-text-icon img{
        display: none;
@@ -531,17 +544,18 @@ form{
     }
 
    form label{
-        color: white;
+        color: #145da0;
         font-size: 13px;
         font-family: Arial, Helvetica, sans-serif;
         
     }
     h4{
-        color: white;
+        /* color: #145da0;
         margin-top: 5px;
         font-weight: lighter;
         text-align: center;
-        font-size: 10px;
+        font-size: 10px; */
+        display: none;
     }
     #img{
         text-align: center;
