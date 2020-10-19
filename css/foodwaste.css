@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid red;
+}
+.sectionone_main{
+border: 2px solid blue;
+height: 300vh;
+}
+.banner{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+opacity: .5;
+
+}
+.banner_boxes{
+border: 3px solid black;
+height: 70vh;
+}
+.banner_boxes_one{
+
+}
+.banner_boxes_two{
+
+}
+.banner_boxes_three{
+
+}
