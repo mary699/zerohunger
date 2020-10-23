@@ -150,14 +150,16 @@ width: 100%;
     text-align: center;
 }
 
-.group-one{
+.group-one p{
     display: block;
     line-height: 1.5rem;
+    color: black;
 }
 .group-one h1{
     padding: 10px;
     color: #145da0;
 font-size: 30px;
+
 }
     
 
@@ -165,6 +167,9 @@ font-size: 30px;
 .banner{
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    top: 120px;
+
 }
 
 
@@ -175,9 +180,12 @@ font-size: 30px;
 .note-all{
 height: 90vh;
 margin: 0px 8%;
+position: relative;
+top: 150px;
 }
 .note-all p{
     padding: 10px;
+    color: black;
 }
 .note-all img{
     padding-top: 10px;
@@ -190,10 +198,65 @@ margin: 0px 8%;
     border-radius: 50%;
 }
 
+/* share */
+.share{
+    border: 2px solid red;
+    height: 50vh;
+    background-color: red;
+    position: relative;
+    top: 200px;
+   
+}
+.share_all{
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    
+}
+.share_all h1,p{
+    color: white;
+    padding: 10px;
+}
+.share_all button{
+background-color: white;
+color: #145da0;
+font-weight: bolder;
+padding: 8px;
+border: none;
+outline: none;
+}
+.share_all button:hover{
+    background-color: #145da0;
+    color: white;
+    font-weight: bolder;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* contact */
-.contact{
+/* .contact{
     border: 2px solid red;
     height: 80vh;
     background-color:#145da0;
@@ -280,7 +343,7 @@ flex: 2;
  border: 2px solid red;
  height: 10vh;
  margin-top: 15px;
- }
+ } */
 
 
 
@@ -431,6 +494,7 @@ flex: 2;
         display: block;
         line-height: 1.5rem;
         font-size: 13px;
+        color: black;
     }
     .group-one h1{
         padding: 5px;
@@ -471,7 +535,7 @@ flex: 2;
         line-height: 1.5em;
         font-weight: lighter;
         font-style: normal;
-       
+        color: black;
     }
     .note-all img{
       position: relative;
@@ -493,10 +557,44 @@ flex: 2;
         
     }
 
-
+/* share */
+.share{
+    border: 2px solid red;
+    height: 40vh;
+    background-color: red;
+   position: absolute;
+   top: 2450px;
+}
+.share_all{
+    border: 2px solid white;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    
+}
+.share_all h1,p{
+    color: white;
+    padding: 10px;
+}
+.share_all button{
+background-color: white;
+color: #145da0;
+font-weight: bolder;
+padding: 8px;
+border: none;
+outline: none;
+}
+.share_all button:hover{
+    background-color: #145da0;
+    color: white;
+    font-weight: bolder;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
 
     /* contact */
-    .contact{
+    /* .contact{
         border: 5px solid red;
         height: 80vh;
         background-color: lightgray;
@@ -542,7 +640,7 @@ flex: 2;
      }
     
        
-
+ */
 
 
 
