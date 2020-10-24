@@ -239,7 +239,6 @@ outline: none;
 
 /* contact */
 .contact_div{
-    border: 2px solid firebrick;
     height: 40vh;
     position: relative;
     top: 210px;
@@ -247,27 +246,31 @@ outline: none;
 .contact_div h1{
     text-align: center;
     color: #145da0;
-    border: 2px solid red;
 }
 .contact_div-all{
-    border: 2px solid blue;
     display: flex;
     height: 30vh;
 }
 
 .contact_div-all-one{
-border: 3px solid green;
 flex: 3;
 margin-top: 10px;
-}
-.contact_div-all-one form{
-    border: 2px solid red;
 }
 
 .contact_div-all-two{
-border: 3px solid blue;
 flex: 3;
 margin-top: 10px;
+border: 2px solid red;
+}
+.contact_div-all-two .imgsocial{
+    padding-left: 110px;
+    border: 2px solid red;
+ 
+}
+
+.contact_div-all-two .callnos{
+   border: 2px solid red;
+   padding-left: 100px;
 }
 
 /* footer */
@@ -518,6 +521,9 @@ footer p{
         width: 100%;
         display: block;
     }
+    .contact_div h1{
+        text-align: left;
+    }
     .contact_div-all{
         width: 100%;
         display: block;
@@ -534,7 +540,20 @@ footer p{
         text-align: center;
         margin-top: 10px;
     }
-
+    .contact_div-all-one h1{
+        text-align: left;
+    }
+    .contact_div-all-two .imgsocial{
+      
+        border: 2px solid red;
+     
+    }
+    .contact_div-all-two h1{
+      
+        border: 2px solid red;
+        text-align: left;
+     
+    }
 
 /* Footer */
 
