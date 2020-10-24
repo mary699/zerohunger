@@ -200,15 +200,15 @@ top: 150px;
 
 /* share */
 .share{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 50vh;
-    background-color: red;
+    background-color: #145da0;
     position: relative;
     top: 200px;
    
 }
 .share_all{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     text-align: center;
     margin: auto;
     padding: 50px;
@@ -222,13 +222,14 @@ top: 150px;
 background-color: white;
 color: #145da0;
 font-weight: bolder;
-padding: 8px;
+padding: 5px;
+width: 30%;
 border: none;
 outline: none;
 }
 .share_all button:hover{
-    background-color: #145da0;
-    color: white;
+    background-color: white;
+    color: red;
     font-weight: bolder;
     padding: 8px;
     border: none;
@@ -236,135 +237,45 @@ outline: none;
 }
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* contact */
-/* .contact{
+.contact_div{
+    border: 2px solid firebrick;
+    height: 40vh;
+    position: relative;
+    top: 210px;
+}
+.contact_div h1{
+    text-align: center;
+    color: #145da0;
     border: 2px solid red;
-    height: 80vh;
-    background-color:#145da0;
 }
-.contact-all{
-border: 2px solid blue;
-margin: 30px  30px 0px 30px;
-height: 70vh;
-}
-.contact-div{
-border: 2px solid rgb(20, 20, 22);
-height: 70vh;
-display: block;
-
-}
-.contact-one{
-border: 2px solid red;
-height: 30vh;
-margin-top: 15px;
-display: flex;
+.contact_div-all{
+    border: 2px solid blue;
+    display: flex;
+    height: 30vh;
 }
 
-.contact-one_one{
-flex: 2;
-border: 2px solid blue;
-
+.contact_div-all-one{
+border: 3px solid red;
+flex: 3;
+margin-top: 10px;
+}
+.contact_div-all-two{
+border: 3px solid blue;
+flex: 3;
+margin-top: 10px;
 }
 
-.contact-one_two{
-flex: 2;
-border: 2px solid rgb(60, 230, 45);
-
+/* footer */
+footer{
+    background-color: #145da0;
+    position: relative;
+    top: 215px;
 }
-.contact-one_two p{
-font-size: 12px;
-font-family: Arial, Helvetica, sans-serif;
-margin-top: 5px;
-color: white;
-font-weight: bold;
-
+footer p{
+    color: white;
+    text-align: center;
 }
-
-.contact-one_two input{
-margin-top: 5px;
-width: 70%;
-padding: 5px;
-border: none;
-outline: none;
-}
-::placeholder{
-    font-size: 8px;
-    color: black;
-}
-button{
-    width: 90px;
-    padding: 5px;
-    border: none;
-outline: none;
-color: black;
-}
-.contact-one_three{
-flex: 2;
-border: 2px solid rgb(37, 175, 157);
-
-}
-
-.contact-two{
-border: 2px solid red;
-height: 20vh;
-margin-top: 15px;
-display: flex;
-}
-.contact-two_one{
-flex: 2;
-}
-.contact-two_two{
-    flex: 2;
-}
-.contact-two_three{
-    flex: 2;
-}
-
-.contact-three{
- border: 2px solid red;
- height: 10vh;
- margin-top: 15px;
- } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -559,14 +470,14 @@ flex: 2;
 
 /* share */
 .share{
-    border: 2px solid red;
-    height: 40vh;
-    background-color: red;
-   position: absolute;
-   top: 2450px;
+    /* border: 2px solid red; */
+    height: 45vh;
+    background-color:#145da0;
+     position: absolute;
+     top: 2485px;
+     width: 100%;
 }
 .share_all{
-    border: 2px solid white;
     text-align: center;
     margin: auto;
     padding: 30px;
@@ -577,16 +488,17 @@ flex: 2;
     padding: 10px;
 }
 .share_all button{
-background-color: white;
-color: #145da0;
-font-weight: bolder;
-padding: 8px;
-border: none;
-outline: none;
+    background-color: white;
+    color: #145da0;
+    font-weight: bolder;
+    padding: 8px;
+    border: none;
+    outline: none;
+  width: 50%;
 }
 .share_all button:hover{
-    background-color: #145da0;
-    color: white;
+    background-color:white;
+    color: red;
     font-weight: bolder;
     padding: 8px;
     border: none;
@@ -594,57 +506,43 @@ outline: none;
 }
 
     /* contact */
-    /* .contact{
-        border: 5px solid red;
-        height: 80vh;
-        background-color: lightgray;
+    .contact_div{
+        border: 2px solid firebrick;
+        height: 40vh;
         position: absolute;
-        top: 2600px;
+        top:2950px;
         width: 100%;
+        display: block;
     }
-    .contact-all{
-    border: 2px solid blue;
-    margin: 30px  30px 0px 30px;
-    height: 70vh;
+    .contact_div-all{
+        width: 100%;
+        display: block;
     }
-    .contact-div{
-    border: 2px solid rgb(20, 20, 22);
-    height: 70vh;
-    padding-top: 15px;
-    
+    .contact_div-all-one{
+        width: 100%;
+        display: block;
+      text-align: center;
+      margin-top: 10px;
     }
-    .contact-one{
-    border: 2px solid red;
-    height: 20vh;
-    margin-top: 0px;
+    .contact_div-all-two{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
     }
-    .contact-one_one{
-
-    }
-    .contact-one_two{
-
-    }
-    .contact-one_three{
-
-    }
-    
-    .contact-two{
-    border: 2px solid rgb(19, 172, 27);
-    height: 20vh;
-    margin-top: 0px;
-    }
-    .contact-three{
-     border: 2px solid red;
-     height: 20vh;
-     margin-top: 0px;
-     }
-    
-       
- */
 
 
+/* Footer */
 
-
-
+footer{
+    background-color: #145da0;
+    position: absolute;
+    top: 3300px;
+    width: 100%;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
 
 }
