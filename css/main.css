@@ -260,16 +260,13 @@ margin-top: 10px;
 .contact_div-all-two{
 flex: 3;
 margin-top: 10px;
-border: 2px solid red;
 }
 .contact_div-all-two .imgsocial{
     padding-left: 110px;
-    border: 2px solid red;
  
 }
 
 .contact_div-all-two .callnos{
-   border: 2px solid red;
    padding-left: 100px;
 }
 
@@ -435,9 +432,7 @@ footer p{
 
 
 
-#notes{
-    /* border: 2px solid red; */
-    }
+
     .note-all{
    
     position: absolute;
@@ -477,7 +472,7 @@ footer p{
 
 /* share */
 .share{
-    /* border: 2px solid red; */
+
     height: 45vh;
     background-color:#145da0;
      position: absolute;
@@ -514,7 +509,6 @@ footer p{
 
     /* contact */
     .contact_div{
-        border: 2px solid firebrick;
         height: 40vh;
         position: absolute;
         top:2950px;
@@ -534,6 +528,7 @@ footer p{
       text-align: center;
       margin-top: 10px;
     }
+    
     .contact_div-all-two{
         width: 100%;
         display: block;
@@ -543,14 +538,8 @@ footer p{
     .contact_div-all-one h1{
         text-align: left;
     }
-    .contact_div-all-two .imgsocial{
-      
-        border: 2px solid red;
-     
-    }
+    
     .contact_div-all-two h1{
-      
-        border: 2px solid red;
         text-align: left;
      
     }
